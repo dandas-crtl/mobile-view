@@ -15,7 +15,6 @@ header{
   flex-direction: column;
   align-items: center;
   position: static;
-  background: #fff;
 }
 
 h1{
@@ -74,22 +73,6 @@ a.skip:focus{
   border: 2px solid black;
 }
 
-.nav_links{
-  display: flex;
-  flex-direction: column;
-}
-
-.nav_item a{
-  padding: 10px;
-}
-
-.nav_item a:hover, a:focus{
-  color: #50C7C7;
-  text-decoration: underline;
-  -webkit-text-decoration-style: dotted;
-          text-decoration-style: dotted;
-}
-
 .images {
   flex: 50%;
   padding-right: 5px;
@@ -106,14 +89,36 @@ a.skip:focus{
 .cookies_imgs{
   display: grid;
   grid-template-columns: 0.75fr 1fr 1fr;
-  grid-template-rows: auto auto auto auto auto;
+  grid-row-gap: 15px;
+}
+
+.gallery{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
   grid-row-gap: 15px;
 }
 
 nav{
-  background-color: rgb(243, 237, 237);
-  padding: 25px 0;    
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: static;
+  border: none;
+  background-color: #b1fcfc;   
   text-align: center;
+}
+
+/*.nav_links{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}*/
+
+.nav_item a{
+  display: block;
+  text-align: center;
+  padding: 10px;
 }
 
 header p{
@@ -145,7 +150,7 @@ footer p{
   .nav_links{
     display: flex;
     flex-direction: column;
-    padding: 30px 0;
+    padding: 0;
   }
 
   .images{
