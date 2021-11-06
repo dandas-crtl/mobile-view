@@ -86,17 +86,17 @@ a.skip:focus{
   vertical-align: middle;
 }
 
-.cookies_imgs{
+/*.cookies_imgs{
   display: grid;
   grid-template-columns: 0.75fr 1fr 1fr;
   grid-row-gap: 15px;
-}
+}*/
 
-/*.gallery{
+.gallery{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-row-gap: 15px;
-}*/
+}
 
 nav{
   display: flex;
