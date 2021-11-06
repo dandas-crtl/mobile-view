@@ -92,11 +92,11 @@ a.skip:focus{
   grid-row-gap: 15px;
 }
 
-.gallery{
+/*.gallery{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-row-gap: 15px;
-}
+}*/
 
 nav{
   display: flex;
