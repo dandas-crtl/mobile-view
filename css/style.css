@@ -43,10 +43,14 @@ h4{
   line-height: 1.5;
 }
 
+a{
+  color: blue;
+}
+
 .on_page{
   text-decoration: none;
-  background-color: white;
-  color: blue;
+  background-color: rgb(247, 173, 218);
+  color: black;
 }
 
 a.skip{
