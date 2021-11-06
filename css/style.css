@@ -16,7 +16,6 @@ header{
   align-items: center;
   position: static;
   background: #fff;
-  border-bottom: 3px solid #525555;
 }
 
 h1{
@@ -45,7 +44,9 @@ h4{
 }
 
 .on_page{
-  text-decoration: blue;
+  text-decoration: none;
+  background-color: white;
+  color: blue;
 }
 
 a.skip{
